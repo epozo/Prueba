@@ -1,5 +1,3 @@
-
-
 package examenBloc1;
 
 /*
