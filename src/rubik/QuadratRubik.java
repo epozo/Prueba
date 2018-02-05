@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class QuadratRubik {
 	
-	//Exercici examen desembre 2017
 	
 	static Scanner reader = new Scanner(System.in);
 	static final int MAX = 3;
@@ -118,10 +117,10 @@ public class QuadratRubik {
 		int sentit;
 		
 		do {
-			System.out.println("Indica el sentit del desplaçament: ");
+			System.out.println("Indica el sentit del desplaÃ§ament: ");
 			System.out.println("1. cap a la dreta o cap a baix");
 			System.out.println("2. cap a la esquerra o cap a dalt");
-			System.out.print("Introdueix una opció: ");
+			System.out.print("Introdueix una opciÃ³: ");
 			sentit = llegirEnter();
 		} while (sentit != -1 && sentit != 1);
 		
@@ -139,7 +138,7 @@ public class QuadratRubik {
 				valid = true;
 			}
 			catch (Exception e) {
-				System.out.println("Error, únicament números enters ");
+				System.out.println("Error, Ãºnicament nÃºmeros enters ");
 				reader.nextLine();
 			}
 		} while (!valid);
@@ -152,7 +151,7 @@ public class QuadratRubik {
 		int num = 0;
 		
 		do {
-			System.out.print("Indica el número de fila / columna a desplaçar: ");
+			System.out.print("Indica el nÃºmero de fila / columna a desplaÃ§ar: ");
 			num = llegirEnter();
 		} while (num < 0 || num >= MAX);
 		
@@ -164,7 +163,7 @@ public class QuadratRubik {
 		char fc;
 		
 		do {
-			System.out.print("Indica si vols desplaçar una fila (f) o una columna (c): ");
+			System.out.print("Indica si vols desplaÃ§ar una fila (f) o una columna (c): ");
 			fc = llegirCar();
 		} while (fc != 'f' && fc != 'F' && fc != 'c' && fc != 'C');
 		
