@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class QuadratRubik {
 	
-
+	//Exercici examen desembre 2017
 	
 	static Scanner reader = new Scanner(System.in);
 	static final int MAX = 3;
