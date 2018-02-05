@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class QuadratRubik {
 	
+	////
 	
 	static Scanner reader = new Scanner(System.in);
 	static final int MAX = 3;
